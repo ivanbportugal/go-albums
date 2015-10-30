@@ -1,0 +1,12 @@
+<div class="hero-unit">
+	<h1>You're up!</h1>
+	<p>Check out your Albums from the "database"</p>
+	<ul>
+		<li ng-repeat="thing in awesomeThings">{{thing}}</li>
+	</ul>
+	<div class="album-container" ng-repeat="album in albums">
+		<h3>{{album.title}}</h3>
+		<h4>{{album.band}}</h4>
+		<h4>{{album.year}}</h4>
+	</div>
+</div>
